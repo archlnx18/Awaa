@@ -1,1 +1,1 @@
-# https://archlnx1839.github.io/Awaa/
+# https://archlnx18.github.io/Awaa/
