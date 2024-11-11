@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Untuk Awaa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <audio id="background-music" autoplay loop>
+    <source src="background-music.mp3" type="audio/mpeg">
+  </audio>
+  <div class="App" id="app-content">
+    <div class="App-body">
+      <img id="proposal-gif" class="App-gif" src="flowerBear.gif" alt="I love you Bear">
+      <p id="proposal-text" class="App-text">Sayang, mau engga jalan bareng aku lagi?</p>
+      <div>
+        <button class="App-button" id="yes-button">Mau</button>
+        <button class="App-button" id="no-button">Engga</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="success-screen" class="App-success" style="display: none;">
+    <img class="App-gif" src="kisses.gif" alt="Kisses">
+    <p class="App-text-success">
+      Yeay! Kamu tuu bukan cuma princess aku, tapi juga orang yang bikin aku merasa nyaman dan tenang setiap kali ada di deket kamu.
+    </p>
+    <p class="App-text-success">
+      Really looking forward to hanging out with you soon, Awaa.
+    </p>
+    <p class="App-text-date" id="current-time"></p> <!-- Displaying real-time here -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
